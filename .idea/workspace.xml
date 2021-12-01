@@ -6,12 +6,38 @@
   <component name="ChangeListManager">
     <list default="true" id="48277986-5e45-4978-9964-4dc9918e937a" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/my-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.storybook/preview.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/App.module.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Components/Accordion/Accordion.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Components/OnOffLamp/OnOffLamp.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Components/Raiting/Raiting.stories.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Components/Raiting/Raiting.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/UncontroledAccordion/UncontroledAccordion.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Components/UncontrolledRaiting/UncontrolledRaiting.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Button.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Button.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Header.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Page.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/Page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/code-brackets.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/colors.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/comments.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/direction.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/flow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/plugin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/repo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/assets/stackalt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/header.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stories/page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
@@ -106,7 +132,7 @@
       <workItem from="1637818636658" duration="18719000" />
       <workItem from="1637866530703" duration="28000" />
       <workItem from="1638290221598" duration="273000" />
-      <workItem from="1638375833618" duration="2756000" />
+      <workItem from="1638375833618" duration="3147000" />
     </task>
     <servers />
   </component>
