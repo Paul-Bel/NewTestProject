@@ -2,12 +2,14 @@ import React, {useState} from 'react';
 import s from './App.module.css';
 import Accordion from "./Components/Accordion/Accordion";
 import {Rating, RatingPropsType, Star} from "./Components/Raiting/Raiting";
-import {OnOff} from "./Components/OnOffLamp/OnOffLamp";
+import {OnOffLamp} from "./Components/OnOffLamp/OnOffLamp";
 
 function App() {
 const [value, setValue] = useState<RatingPropsType>(0)
     const [collapsed, setCollapsed] = useState(true)
+    let [on, setOn] = useState<boolean>(true)
 
+    // for Lamp
     return (
         <div className={s.App}>
             <input/>
@@ -15,7 +17,7 @@ const [value, setValue] = useState<RatingPropsType>(0)
             <div>Article 1</div>
             {<Accordion titleValue={'Menu'} setCollapsed={()=>setCollapsed(!collapsed)} collapsed={collapsed} />}
             <Rating value={value} setValue={setValue}/>
-            <OnOff/>
+            <OnOffLamp setOn={setOn} on={on}/>
 
             {/*______________________________________________________________*/}
             {/*{<Accordion titleValue={'Use Menu'} />}*/}

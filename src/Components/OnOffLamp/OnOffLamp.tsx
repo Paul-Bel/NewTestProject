@@ -1,7 +1,12 @@
 import React, {useState} from "react";
 
-export function OnOff() {
-    let [on, setOn] = useState(true)
+type LampProps = {
+    on: boolean
+    setOn: (on: boolean)=>void
+}
+
+export function OnOffLamp (props: LampProps) {
+    let {on, setOn} = props
 
     const OnStyle = {
         marginLeft: "30px",
@@ -32,7 +37,6 @@ export function OnOff() {
         marginLeft: "5px",
         // marginTop: "50px",
     };
-
     type LampTypeStyle = {
         width: string,
         height: string,
@@ -63,8 +67,6 @@ export function OnOff() {
         backgroundColor: string,
         marginTop: string,
     }
-
-
 
     return (
         <div>
