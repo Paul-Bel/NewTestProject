@@ -11,10 +11,10 @@ const [value, setValue] = useState<RatingPropsType>(0)
     return (
         <div className={s.App}>
             <input/>
-            {/*<input type="password"/>*/}
-            {/*<div>Article 1</div>*/}
-            {/*{<Accordion titleValue={'Menu'} setCollapsed={()=>setCollapsed(!collapsed)} collapsed={collapsed} />}*/}
-            {/*<Rating value={value} setValue={setValue}/>*/}
+            <input type="password"/>
+            <div>Article 1</div>
+            {<Accordion titleValue={'Menu'} setCollapsed={()=>setCollapsed(!collapsed)} collapsed={collapsed} />}
+            <Rating value={value} setValue={setValue}/>
             <OnOff/>
 
             {/*______________________________________________________________*/}

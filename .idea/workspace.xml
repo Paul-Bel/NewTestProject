@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48277986-5e45-4978-9964-4dc9918e937a" name="Changes" comment="">
+    <list default="true" id="48277986-5e45-4978-9964-4dc9918e937a" name="Changes" comment="&quot;Coomits&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Raiting/Raiting.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Raiting/Raiting.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,8 +97,16 @@
       <workItem from="1637818636658" duration="18719000" />
       <workItem from="1637866530703" duration="28000" />
       <workItem from="1638290221598" duration="273000" />
-      <workItem from="1638375833618" duration="3438000" />
+      <workItem from="1638375833618" duration="6139000" />
     </task>
+    <task id="LOCAL-00001" summary="&quot;Coomits&quot;">
+      <created>1638379446117</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1638379446117</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,5 +123,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;Coomits&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Coomits&quot;" />
   </component>
 </project>
