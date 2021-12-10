@@ -1,12 +1,15 @@
 import React, {useState} from "react";
 
+type ItemType = {
+    title: string, value: number
+}
 
 export type AccordionPropsType = {
     titleValue: string;
     CallCollapsed: ()=>void
     collapsed: boolean
     forStory?: ()=>void
-    item: Array<{title: string, value: number}>
+    item: Array<ItemType>
 }
 
 export function Accordion(props: AccordionPropsType) {
