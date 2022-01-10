@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48277986-5e45-4978-9964-4dc9918e937a" name="Changes" comment="Setting in Story book">
+    <list default="true" id="48277986-5e45-4978-9964-4dc9918e937a" name="Changes" comment="add tests mutability">
+      <change afterPath="$PROJECT_DIR$/src/Components/Select/Select.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Accordion/Accordion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/Mutability.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/Mutability.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tests/Mutability.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/Mutability.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lessons/14.12/this" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -108,6 +111,11 @@
       <workItem from="1638421425643" duration="338000" />
       <workItem from="1638451407134" duration="6336000" />
       <workItem from="1638557975594" duration="476000" />
+      <workItem from="1639149167179" duration="3882000" />
+      <workItem from="1639483799506" duration="2267000" />
+      <workItem from="1639498295337" duration="1677000" />
+      <workItem from="1639509245982" duration="596000" />
+      <workItem from="1639545132151" duration="1027000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Coomits&quot;">
       <created>1638379446117</created>
@@ -144,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638473353790</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add tests mutability">
+      <created>1639149294688</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1639149294688</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +182,7 @@
     <MESSAGE value="Start StoriBook" />
     <MESSAGE value="Lamp StoryBook" />
     <MESSAGE value="Setting in Story book" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting in Story book" />
+    <MESSAGE value="add tests mutability" />
+    <option name="LAST_COMMIT_MESSAGE" value="add tests mutability" />
   </component>
 </project>
