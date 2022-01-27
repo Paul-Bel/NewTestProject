@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48277986-5e45-4978-9964-4dc9918e937a" name="Changes" comment="add tests mutability">
-      <change afterPath="$PROJECT_DIR$/src/Components/Select/Select.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Select/select.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Stories/input.stories.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Accordion/Accordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/Mutability.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/Mutability.test.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tests/Mutability.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tests/Mutability.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="20P0vPktNIIe8FV6LxzJBASEt8w" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -49,14 +51,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Lessons/14.12/this" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="terminal" />
-    <property name="ts.external.directory.path" value="D:\Projects\PutSamuraya1\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="D:\Projects\ReactStoryBook\NewTestProject\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -116,6 +118,7 @@
       <workItem from="1639498295337" duration="1677000" />
       <workItem from="1639509245982" duration="596000" />
       <workItem from="1639545132151" duration="1027000" />
+      <workItem from="1643269271140" duration="5606000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Coomits&quot;">
       <created>1638379446117</created>
@@ -175,7 +178,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Coomits&quot;" />
