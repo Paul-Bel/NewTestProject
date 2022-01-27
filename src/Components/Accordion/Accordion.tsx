@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import {Select} from "../Select/Select";
 
 type ItemType = {
@@ -6,16 +6,20 @@ type ItemType = {
 }
 export type AccordionPropsType = {
     titleValue: string;
-    CallCollapsed: ()=>void
+    onChange: ()=>void
     collapsed: boolean
     forStory?: ()=>void
     item: Array<ItemType>
+    onClick: (id: string | number) => void
 }
 
 export function Accordion(props: AccordionPropsType) {
     return <div>
-        <AccordionTitle title={props.titleValue} setCollapsed={props.CallCollapsed}/>
-        {props.collapsed && <AccordionBody item={props.item}/>}
+        <AccordionTitle
+            title={props.titleValue}
+            setCollapsed={props.onChange}
+        />
+        {props.collapsed && <AccordionBody item={props.item} onClick={props.onClick}/>}
     </div>
 }
 
@@ -25,7 +29,6 @@ export type AccordionTitlePropsType = {
 }
 
 function AccordionTitle(props: AccordionTitlePropsType) {
-    const test = () => alert("rabotaet")
     return (
         <h3 onClick={props.setCollapsed}>{props.title}</h3>
     )
@@ -33,23 +36,26 @@ function AccordionTitle(props: AccordionTitlePropsType) {
 
 type BodyType = {
     item: Array<{title: string, value: number}>
+    onClick: (id: string | number) => void
 }
 
 function AccordionBody(props: BodyType) {
-    console.log("Body START!!")
-    return (
-
-        <div>
+    const onClick = (e: string | number) => {
+    props.onClick(e)
+    }
+    return <div>
         <ul>
-            {props.item.map(m => {
+            {props.item.map((m, index) => {
            return (
-                <li> Friend {m.value} *  Name: {m.title}</li>
+                <li
+                    onClick={()=>onClick(m.title)}
+                    key={index}
+                > Friend {m.value} *  Name: {m.title}</li>
                 )}
             )}
         </ul>
-        <Select item={props.item}/>
+        {/*<Select item={props.item} />*/}
         </div>
-    )
 }
 
 export default Accordion;

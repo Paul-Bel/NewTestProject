@@ -26,7 +26,7 @@ const [value, setValue] = useState<RatingPropsType>(0)
             <div>Article 1</div>
             {<Accordion
                 titleValue={'Menu'}
-                CallCollapsed={CallCollapsed}
+                onChange={CallCollapsed}
                 collapsed={collapsed}
                 item={item}
             />}

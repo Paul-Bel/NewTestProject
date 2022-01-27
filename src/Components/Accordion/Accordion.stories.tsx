@@ -15,7 +15,7 @@ export const MenuCollapsedMode = Template.bind({})
 MenuCollapsedMode.args = {
     titleValue: "Menu",
     collapsed: true,
-    CallCollapsed: () => {
+    onChange: () => {
     },
     item: []
 }
@@ -24,7 +24,7 @@ export const UserCollapsedMode = Template.bind({})
 UserCollapsedMode.args = {
     titleValue: "User",
     collapsed: false,
-    CallCollapsed: () => {
+    onChange: () => {
     },
     item: []
 }
@@ -33,11 +33,13 @@ export const ModeChanging = () => {
     const [value, setValue] = useState<boolean>(true)
     return <Accordion
         titleValue={"Menu"}
-        CallCollapsed={() => setValue(!value)}
-        collapsed={value} item={[
+        onChange={() => setValue(!value)}
+        collapsed={value}
+        item={[
         {title: "Anton", value: 1},
         {title: "Dima", value: 2},
         {title: "Denis", value: 3},
         {title: "Tolya", value: 4},]}
+        onClick={(id: string | number) => {alert(`user with ID ${id} shuld be happy`)}}
     />
 }
