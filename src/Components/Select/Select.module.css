@@ -1,0 +1,26 @@
+.select {
+    display: inline-block;
+    border: 1px solid black;
+    min-width: 70px;
+    min-height: 20px;
+
+}
+
+.items {
+    position: absolute;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.main {
+    display: inline-block;
+    border: 1px solid black;
+    min-width: 70px;
+    min-height: 20px;
+    padding: 3px;
+}
+
+.item.select {
+    background-color: #1b1bc4;
+    color: antiquewhite;
+}

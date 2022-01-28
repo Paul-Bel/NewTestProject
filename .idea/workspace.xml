@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48277986-5e45-4978-9964-4dc9918e937a" name="Changes" comment="add custom SELECT">
-      <change afterPath="$PROJECT_DIR$/src/Stories/ReactMemo.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Select/Select.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Select/Select.tsx" afterDir="false" />
-    </list>
+    <list default="true" id="48277986-5e45-4978-9964-4dc9918e937a" name="Changes" comment="learn ReactMemo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -120,7 +116,7 @@
       <workItem from="1639545132151" duration="1027000" />
       <workItem from="1643269271140" duration="9919000" />
       <workItem from="1643287015421" duration="8761000" />
-      <workItem from="1643355941316" duration="1191000" />
+      <workItem from="1643355941316" duration="1816000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Coomits&quot;">
       <created>1638379446117</created>
@@ -178,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643295293211</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="learn ReactMemo">
+      <created>1643361628060</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1643361628060</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +206,7 @@
     <MESSAGE value="add tests mutability" />
     <MESSAGE value="variable input" />
     <MESSAGE value="add custom SELECT" />
-    <option name="LAST_COMMIT_MESSAGE" value="add custom SELECT" />
+    <MESSAGE value="learn ReactMemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="learn ReactMemo" />
   </component>
 </project>
