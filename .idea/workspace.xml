@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48277986-5e45-4978-9964-4dc9918e937a" name="Changes" comment="added clock">
-      <change afterPath="$PROJECT_DIR$/src/Components/Clock/AnalogClock.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Clock/AnalogClockView.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Clock/Clock.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Clock/Clock.stories.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Clock/Clock.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Clock/DigitalClockView.tsx" afterDir="false" />
+    <list default="true" id="48277986-5e45-4978-9964-4dc9918e937a" name="Changes" comment="added analog clock">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Stories/UseEffect.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stories/UseEffect.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +48,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SocialNetworkPrototype" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../CodeWars/CodeWars.js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -82,7 +75,10 @@
       <recent name="D:\Projects\ReactStoryBook\NewTestProject\src\Components\Clock" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.CodeWars.js">
+    <configuration name="CodeWars.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/../../CodeWars/CodeWars.js" working-dir="$PROJECT_DIR$/../../CodeWars">
+      <method v="2" />
+    </configuration>
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -95,6 +91,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.CodeWars.js" />
         <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
@@ -131,7 +128,7 @@
       <workItem from="1643269271140" duration="9919000" />
       <workItem from="1643287015421" duration="8761000" />
       <workItem from="1643355941316" duration="2933000" />
-      <workItem from="1643374129459" duration="14917000" />
+      <workItem from="1643374129459" duration="16795000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Coomits&quot;">
       <created>1638379446117</created>
@@ -245,7 +242,21 @@
       <option name="project" value="LOCAL" />
       <updated>1643398381705</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="added analog clock">
+      <created>1643402024911</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1643402024911</updated>
+    </task>
+    <task id="LOCAL-00018" summary="added analog clock">
+      <created>1643403858751</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1643403858751</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,6 +289,7 @@
     <MESSAGE value="add useMemo_" />
     <MESSAGE value="added useEffect for Tests" />
     <MESSAGE value="added clock" />
-    <option name="LAST_COMMIT_MESSAGE" value="added clock" />
+    <MESSAGE value="added analog clock" />
+    <option name="LAST_COMMIT_MESSAGE" value="added analog clock" />
   </component>
 </project>
