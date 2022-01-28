@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48277986-5e45-4978-9964-4dc9918e937a" name="Changes" comment="add React.memo(CounterSecret)">
-      <change afterPath="$PROJECT_DIR$/src/Stories/UseMemo.stories.tsx" afterDir="false" />
+    <list default="true" id="48277986-5e45-4978-9964-4dc9918e937a" name="Changes" comment="add useMemo">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stories/ReactMemo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stories/ReactMemo.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stories/UseMemo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stories/UseMemo.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +121,7 @@
       <workItem from="1643269271140" duration="9919000" />
       <workItem from="1643287015421" duration="8761000" />
       <workItem from="1643355941316" duration="2933000" />
-      <workItem from="1643374129459" duration="1562000" />
+      <workItem from="1643374129459" duration="3516000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Coomits&quot;">
       <created>1638379446117</created>
@@ -206,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643362673614</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add useMemo">
+      <created>1643376370360</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1643376370360</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -235,6 +243,7 @@
     <MESSAGE value="add story components" />
     <MESSAGE value="add React.memo(UsersSecret)" />
     <MESSAGE value="add React.memo(CounterSecret)" />
-    <option name="LAST_COMMIT_MESSAGE" value="add React.memo(CounterSecret)" />
+    <MESSAGE value="add useMemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add useMemo" />
   </component>
 </project>

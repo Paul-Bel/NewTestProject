@@ -12,14 +12,15 @@ export const ExampleA = () => {
     let resultA = 1
     let resultB = 1
 
-    useMemo(()=>{
+    resultA = useMemo(()=>{
         let facke = 0
         while (facke<100000000){let y = Math.random(); facke++}
+        for (let i = 1; i <= a; i++) {
+            resultA *= i
+        } return resultA
     }, [a])
 
-    for (let i = 1; i <= a; i++) {
-        resultA *= i
-    }
+
     for (let i = 1; i <= b; i++) {
         resultB *= i
     }
