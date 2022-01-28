@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48277986-5e45-4978-9964-4dc9918e937a" name="Changes" comment="add story components">
+    <list default="true" id="48277986-5e45-4978-9964-4dc9918e937a" name="Changes" comment="add React.memo(UsersSecret)">
       <change beforePath="$PROJECT_DIR$/src/Stories/ReactMemo.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stories/ReactMemo.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,7 +118,7 @@
       <workItem from="1639545132151" duration="1027000" />
       <workItem from="1643269271140" duration="9919000" />
       <workItem from="1643287015421" duration="8761000" />
-      <workItem from="1643355941316" duration="2188000" />
+      <workItem from="1643355941316" duration="2608000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Coomits&quot;">
       <created>1638379446117</created>
@@ -190,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643361978381</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add React.memo(UsersSecret)">
+      <created>1643362108814</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1643362108814</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,6 +224,7 @@
     <MESSAGE value="add custom SELECT" />
     <MESSAGE value="learn ReactMemo" />
     <MESSAGE value="add story components" />
-    <option name="LAST_COMMIT_MESSAGE" value="add story components" />
+    <MESSAGE value="add React.memo(UsersSecret)" />
+    <option name="LAST_COMMIT_MESSAGE" value="add React.memo(UsersSecret)" />
   </component>
 </project>
