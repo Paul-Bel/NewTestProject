@@ -1,22 +1,42 @@
 import React, {useEffect, useState} from "react";
+import s from './UseEffect.module.css'
 
 export default {
     title: 'useEffect'
 }
 
 export const SimpleExample = () => {
-    const [counter, setCounter] = useState(1)
+
+    const t = new Date().getSeconds()
+    const [times, setTimes] = useState(new Date())
+
 
     console.log('SimpleExapmle')
 
     useEffect(() => {
-        console.log('useEffect')
-        document.title = counter.toString()
-    })
+        const intervalID = setInterval(()=>{
+            setTimes(new Date())
+            console.log('tick')
+        },1000)
+        return ()=>clearInterval(intervalID)
+    },[])
+
+
+
+
+    const getTime = (time: number) => time < 10 ? '0' + time : time
 
 
     return <>
-    Hello, {counter}
-        <button onClick={()=>setCounter(counter+1)}>ADD</button>
+        <div className={s.title}>
+            <div>Hours:</div>
+            <div>Minutes:</div>
+            <div>Second:</div>
+        </div>
+        <div className={s.time}>
+            <div>{getTime(times.getHours())}</div>
+            <div>{getTime(times.getMinutes())}</div>
+            <div>{getTime(times.getSeconds())}</div>
+        </div>
     </>
 }

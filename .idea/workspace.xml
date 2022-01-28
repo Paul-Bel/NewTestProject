@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48277986-5e45-4978-9964-4dc9918e937a" name="Changes" comment="add useMemo_">
-      <change afterPath="$PROJECT_DIR$/src/Stories/UseEffect.stories.tsx" afterDir="false" />
+    <list default="true" id="48277986-5e45-4978-9964-4dc9918e937a" name="Changes" comment="added useEffect for Tests">
+      <change afterPath="$PROJECT_DIR$/src/Stories/UseEffect.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Stories/UseEffect.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stories/UseEffect.stories.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +50,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SocialNetworkPrototype" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -120,7 +121,7 @@
       <workItem from="1643269271140" duration="9919000" />
       <workItem from="1643287015421" duration="8761000" />
       <workItem from="1643355941316" duration="2933000" />
-      <workItem from="1643374129459" duration="5817000" />
+      <workItem from="1643374129459" duration="11131000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Coomits&quot;">
       <created>1638379446117</created>
@@ -220,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643378575086</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added useEffect for Tests">
+      <created>1643389250137</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1643389250137</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,6 +259,7 @@
     <MESSAGE value="add React.memo(CounterSecret)" />
     <MESSAGE value="add useMemo" />
     <MESSAGE value="add useMemo_" />
-    <option name="LAST_COMMIT_MESSAGE" value="add useMemo_" />
+    <MESSAGE value="added useEffect for Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="added useEffect for Tests" />
   </component>
 </project>

@@ -1,0 +1,12 @@
+.title{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 250px;
+}
+.time {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 250px;
+}
