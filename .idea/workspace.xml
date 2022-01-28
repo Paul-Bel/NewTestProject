@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="48277986-5e45-4978-9964-4dc9918e937a" name="Changes" comment="added useEffect for Tests">
-      <change afterPath="$PROJECT_DIR$/src/Stories/UseEffect.module.css" afterDir="false" />
+    <list default="true" id="48277986-5e45-4978-9964-4dc9918e937a" name="Changes" comment="added clock">
+      <change afterPath="$PROJECT_DIR$/src/Components/Clock/AnalogClock.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Clock/AnalogClockView.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Clock/Clock.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Clock/Clock.stories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Clock/Clock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Clock/DigitalClockView.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Stories/UseEffect.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Stories/UseEffect.stories.tsx" afterDir="false" />
     </list>
@@ -69,7 +74,12 @@
       <recent name="D:\Projects\PutSamuraya1\src\Components" />
     </key>
     <key name="es6.move.members.recent.items">
+      <recent name="D:\Projects\ReactStoryBook\NewTestProject\src\Components\Clock\DigitalClockView.tsx" />
+      <recent name="D:\Projects\ReactStoryBook\NewTestProject\src\Components\Clock\AnalogClockView.tsx" />
       <recent name="D:\Program\Temp\my-app\src\Components\Raiting\Raiting.tsx" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\ReactStoryBook\NewTestProject\src\Components\Clock" />
     </key>
   </component>
   <component name="RunManager">
@@ -121,7 +131,7 @@
       <workItem from="1643269271140" duration="9919000" />
       <workItem from="1643287015421" duration="8761000" />
       <workItem from="1643355941316" duration="2933000" />
-      <workItem from="1643374129459" duration="11131000" />
+      <workItem from="1643374129459" duration="14917000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Coomits&quot;">
       <created>1638379446117</created>
@@ -228,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643389250137</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="added clock">
+      <created>1643398381705</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1643398381705</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,6 +277,7 @@
     <MESSAGE value="add useMemo" />
     <MESSAGE value="add useMemo_" />
     <MESSAGE value="added useEffect for Tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="added useEffect for Tests" />
+    <MESSAGE value="added clock" />
+    <option name="LAST_COMMIT_MESSAGE" value="added clock" />
   </component>
 </project>
