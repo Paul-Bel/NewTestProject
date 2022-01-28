@@ -7,12 +7,14 @@ export default {
 const Counter = (props: { count: number }) => {
     return <div>{props.count}</div>
 }
-const Users = (props: { users: Array<string> }) => {
+const UsersSecret = (props: { users: Array<string> }) => {
     console.log('users')
     return <div>
         {props.users.map((m, i) => <div key={i}>{m}</div>)}
     </div>
 }
+const Users = React.memo(UsersSecret)
+
 export const Example1 = () => {
     const [counter, setCounter] = useState(0)
     const [users, setUsers] = useState(['Dima', 'Vitya', 'Kolya'])
