@@ -35,7 +35,9 @@ export const Select = (props: SelectPropsType) => {
                     }
                 }
             }
-            props.onChange(props.items[0].value)
+            if(!selectedItems) {
+                props.onChange(props.items[0].value)
+            }
         }
         if (e.key === 'Enter' || e.key === 'Escape') {
             setActive(false)
